@@ -373,9 +373,6 @@ The dashboard includes metrics such as:
 
 # 🖼️ Dashboard Preview
 
-> Add your final Power BI dashboard screenshots here.
-
-Example:
 
 ```text
 Dashboard/
@@ -388,7 +385,9 @@ Dashboard/
 Screenshots can be embedded in this README using:
 
 ```markdown
-![Dashboard Overview](Dashboard/Dashboard%20Overview.png) 
+## 💡 Business Insights Dashboard
+
+![Business Insights Dashboard](Dashboard/Business-Insights.png)
 ```
 
 ---
