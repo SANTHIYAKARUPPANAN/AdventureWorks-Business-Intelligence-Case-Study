@@ -392,6 +392,11 @@ The dashboard includes metrics such as:
 ![AdventureWorks Product & Customer Intelligence](Dashboard/Product-Customer-Intelligence.png)
 
 ---
+## 🔗 Power BI Data Model
+
+The Power BI semantic model connects the sales fact table with customer, product, and territory dimensions to support consistent analysis across the dashboard.
+
+![AdventureWorks Power BI Data Model](Documentation/ER-Diagram.png)
 
 # 💡 Business Insights
 
