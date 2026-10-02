@@ -2,18 +2,18 @@
 
 # 🚀 AdventureWorks Business Intelligence Case Study
 
-### A Production-Style SQL & Power BI Analytics Project
+### End-to-End SQL & Power BI Analytics Project
 
 <img src="https://img.shields.io/badge/SQL-Advanced-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/MySQL-8.0-orange?style=for-the-badge">
 <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge">
-<img src="https://img.shields.io/badge/Status-In%20Progress-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
 
 ---
 
-### 📊 Transforming Production Data into Actionable Business Insights
+### 📊 Transforming Retail Data into Actionable Business Insights
 
-*An end-to-end Business Intelligence project that demonstrates database understanding, advanced SQL analytics, data modeling fundamentals, and interactive dashboard development using the AdventureWorks dataset.*
+*An end-to-end Business Intelligence project demonstrating database understanding, advanced SQL analytics, data modeling, KPI development, and interactive Power BI dashboard development using the AdventureWorks dataset.*
 
 </div>
 
@@ -21,34 +21,48 @@
 
 # 📖 Project Overview
 
-This repository presents a **production-style Business Intelligence case study** built using the **AdventureWorks** retail database.
+This repository presents an end-to-end **Business Intelligence case study** built using the **AdventureWorks retail database**.
 
-The project simulates the workflow of a Business Intelligence Analyst—from understanding the database schema and documenting data assets to solving business problems using SQL and presenting insights through Power BI dashboards.
+The project simulates the workflow of a Business Intelligence / Data Analyst by transforming raw relational data into business-ready insights.
 
-The objective is to demonstrate not only SQL proficiency but also analytical thinking, business understanding, and professional project documentation.
+The analysis covers:
+
+* Sales performance
+* Customer purchasing behavior
+* Product and category performance
+* Geographic performance
+* Revenue trends
+* Customer contribution and segmentation
+* Key business KPIs
+
+The project combines **MySQL for data exploration and analytical querying** with **Power BI for data modeling, visualization, and business reporting**.
 
 ---
 
-# 🎯 Project Objectives
+# 🎯 Business Objectives
 
-- 📊 Analyze sales performance and business growth
-- 👥 Understand customer purchasing behavior
-- 🛍️ Evaluate product and category performance
-- 🌍 Analyze sales across different territories
-- 📈 Identify trends and key business KPIs
-- 💡 Generate actionable business recommendations
-- 📊 Build interactive executive dashboards
+The primary objectives of this project are to:
+
+* 📊 Analyze overall sales and revenue performance
+* 📈 Identify sales growth trends over time
+* 👥 Understand customer purchasing behavior
+* 💰 Identify high-value customers
+* 🛍️ Evaluate product and category contribution
+* 🌍 Compare performance across territories
+* 🔎 Identify important business patterns using advanced SQL
+* 📊 Build an interactive Power BI dashboard for decision-making
+* 💡 Translate analytical findings into actionable business insights
 
 ---
 
 # 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|----------|
-| 🐬 MySQL | Database & SQL Analytics |
-| 📊 Power BI | Dashboard Development |
-| 📝 Git & GitHub | Version Control |
-| 📄 Markdown | Documentation |
+| Technology          | Purpose                                                          |
+| ------------------- | ---------------------------------------------------------------- |
+| 🐬 **MySQL 8.0**    | Data exploration, transformation, and SQL analytics              |
+| 📊 **Power BI**     | Data modeling, DAX, KPI development, and dashboard visualization |
+| 📝 **Git & GitHub** | Version control and project documentation                        |
+| 📄 **Markdown**     | Technical documentation                                          |
 
 ---
 
@@ -63,7 +77,7 @@ AdventureWorks-Business-Analytics
 │   ├── Data Profiling.md
 │   └── ER Diagram.png
 │
-├── 📂 SQL 
+├── 📂 SQL
 │   ├── Data Exploration.sql
 │   ├── Sales Analysis.sql
 │   ├── Customer Analysis.sql
@@ -72,6 +86,8 @@ AdventureWorks-Business-Analytics
 │   └── Advanced SQL.sql
 │
 ├── 📂 Dashboard
+│   ├── AdventureWorks Dashboard.pbix
+│   └── Dashboard Screenshots/
 │
 ├── 📂 Dataset
 │
@@ -82,76 +98,460 @@ AdventureWorks-Business-Analytics
 
 # 📚 Skills Demonstrated
 
-### SQL
-- ✅ Joins
-- ✅ Aggregate Functions
-- ✅ Subqueries
-- ✅ Common Table Expressions (CTEs)
-- ✅ Window Functions
-- ✅ Views
-- ✅ Stored Procedures
-- ✅ Query Optimization
+## 🐬 SQL & Data Analysis
 
-### Business Analytics
-- 📈 Sales Analysis
-- 👥 Customer Analytics
-- 🛍️ Product Analytics
-- 🌍 Territory Analysis
-- 📅 Time-Series Analysis
-- 💰 Revenue Analysis
-- 🎯 KPI Development
+* Joins
+* Aggregate Functions
+* Subqueries
+* CASE expressions
+* Common Table Expressions (CTEs)
+* Window Functions
+* Ranking
+* Running totals
+* Customer-level analysis
+* Revenue analysis
+* Year-over-Year analysis
+* RFM-style customer analysis
+* Pareto analysis
+* Data transformation
+* Views
 
-### Data Modeling
-- ⭐ Star Schema
-- 🔑 Primary & Foreign Keys
-- 🗂️ Fact & Dimension Tables
-- 🏢 Relational Database Design
+## 📊 Business Intelligence
+
+* KPI development
+* Sales performance analysis
+* Customer analytics
+* Product analytics
+* Territory analysis
+* Revenue analysis
+* Time-series analysis
+* Business question formulation
+* Insight generation
+
+## 🧩 Data Modeling
+
+* Relational database concepts
+* Primary and foreign keys
+* Fact and dimension relationships
+* Power BI semantic modeling
+* Many-to-one relationships
+* Data model validation
+
+## 📈 Power BI
+
+* Interactive dashboards
+* DAX measures
+* KPI cards
+* Slicers
+* Bar and column charts
+* Trend analysis
+* Customer segmentation visuals
+* Geographic analysis
+* Business-focused dashboard design
 
 ---
 
-# 📊 Business Questions
+# 🗄️ Dataset
 
-- Which products generate the highest revenue?
-- Which customers contribute the most to sales?
-- Which territories perform the best?
-- How do sales change over time?
-- Which product categories drive business growth?
-- What insights can help improve business performance?
+The project uses the **AdventureWorks retail dataset**, containing information related to:
+
+* Customers
+* Products
+* Product Categories
+* Product Subcategories
+* Sales Transactions
+* Territories
+
+The sales data contains **60K+ sales transactions** used for the analysis.
 
 ---
 
-# 📈 Dashboard Preview
+# 🔍 Data Preparation
 
-> Dashboard screenshots will be added after development.
+Before performing the analysis, the dataset was examined and prepared for analytical use.
+
+Key preparation steps included:
+
+* Understanding table structures and relationships
+* Reviewing primary and foreign key relationships
+* Profiling important columns
+* Standardizing date information
+* Converting sales dates into appropriate date formats
+* Validating relationships between sales, products, customers, and territories
+* Creating analytical views where required
+
+This ensured that the SQL analysis and Power BI model were based on consistent and usable data.
+
+---
+
+# 🐬 SQL Analysis
+
+SQL was used as the primary analytical layer for answering business questions and deriving measurable insights.
+
+The analysis used:
+
+* Multiple table joins
+* Aggregations
+* CTEs
+* Window functions
+* Ranking functions
+* CASE expressions
+* Subqueries
+* Views
+* Date-based analysis
+
+### Examples of analytical techniques
+
+#### 📈 Year-over-Year Analysis
+
+Revenue was analyzed across different years to understand business growth.
+
+#### 👥 Customer Contribution Analysis
+
+Customers were ranked based on their revenue contribution to identify high-value customer segments.
+
+#### 🎯 Pareto Analysis
+
+A cumulative revenue analysis was used to determine how many customers were responsible for approximately 80% of total revenue.
+
+#### 🛍️ Product & Category Analysis
+
+Revenue was analyzed across product categories and subcategories to identify major revenue drivers.
+
+#### 🌍 Territory Analysis
+
+Sales performance was compared across different countries and territories.
+
+---
+
+# 📊 Key Business Findings
+
+The SQL analysis produced several significant findings.
+
+## 💰 Overall Revenue
+
+The analyzed sales data generated approximately:
+
+### **$24.91M Total Revenue**
+
+from more than:
+
+### **60K+ Sales Transactions**
+
+---
+
+## 📈 Revenue by Year
+
+| Year  | Revenue |
+| ----- | ------: |
+| 2015  |  $6.40M |
+| 2016  |  $9.32M |
+| 2017* |  $9.19M |
+
+*2017 represents the available period in the dataset.
+
+Revenue increased substantially from 2015 to 2016, representing approximately **45.6% year-over-year growth**.
+
+---
+
+## 🛍️ Category Performance
+
+| Category    | Revenue | Contribution |
+| ----------- | ------: | -----------: |
+| Bikes       | $23.64M |       94.89% |
+| Accessories |  $0.91M |        3.64% |
+| Clothing    |  $0.37M |        1.47% |
+
+The analysis shows that **Bikes are the dominant revenue contributor**, accounting for approximately 95% of total revenue.
+
+---
+
+## 👥 Customer Revenue Concentration
+
+Pareto analysis showed that approximately:
+
+### **29.03% of customers generated 80% of total revenue.**
+
+The top 10% of customers contributed approximately:
+
+### **40.36% of total revenue.**
+
+This highlights a strong concentration of revenue among a relatively smaller group of customers.
+
+---
+
+## 🌍 Revenue by Country
+
+| Country        | Revenue |
+| -------------- | ------: |
+| United States  |  $7.94M |
+| Australia      |  $7.42M |
+| United Kingdom |  $2.90M |
+| Germany        |  $2.52M |
+| France         |  $2.36M |
+| Canada         |  $1.77M |
+
+The United States and Australia represented the largest revenue contributions among the analyzed countries.
+
+---
+
+## 👤 Revenue by Gender
+
+| Gender        | Revenue |
+| ------------- | ------: |
+| Female        | $12.52M |
+| Male          | $12.24M |
+| Not Available |  $0.16M |
+
+Revenue was relatively balanced between male and female customers in the analyzed dataset.
+
+---
+
+# 🧩 Power BI Data Model
+
+The cleaned analytical data was imported into Power BI and organized into a relational semantic model.
+
+The model connects sales data with relevant dimensions including:
+
+```text
+                 ┌───────────────┐
+                 │   Customers   │
+                 └───────┬───────┘
+                         │
+                         │
+┌──────────────┐   ┌─────▼──────┐   ┌──────────────┐
+│   Products   │───│    Sales   │───│  Territories │
+└──────────────┘   └────────────┘   └──────────────┘
+       │
+       │
+┌──────▼─────────────┐
+│ Product Categories │
+└────────────────────┘
+```
+
+The model was designed to support:
+
+* Revenue analysis
+* Customer analysis
+* Product analysis
+* Territory analysis
+* Time-based analysis
+* Interactive filtering
+
+---
+
+# 📊 Power BI Dashboard
+
+The Power BI dashboard converts the analytical results into an interactive reporting layer.
+
+### Key KPIs
+
+The dashboard includes metrics such as:
+
+* Total Revenue
+* Average Order Value
+* Number of Orders
+* Number of Customers
+* Customer Type
+* Revenue by Category
+* Revenue by Country
+* Revenue Trends
+* Customer Contribution
+
+### Dashboard Features
+
+* Interactive slicers
+* KPI cards
+* Revenue trend analysis
+* Category performance
+* Geographic performance
+* Customer analysis
+* Dynamic filtering
+* Business-focused visualizations
+
+---
+
+# 🖼️ Dashboard Preview
+
+> Add your final Power BI dashboard screenshots here.
+
+Example:
+
+```text
+Dashboard/
+│
+├── Dashboard Overview.png
+├── Customer Analysis.png
+└── Sales Performance.png
+```
+
+Screenshots can be embedded in this README using:
+
+```markdown
+![Dashboard Overview](Dashboard/Dashboard%20Overview.png) 
+```
+
+---
+
+# 💡 Business Insights
+
+The analysis provides several business-oriented observations:
+
+### 1. Revenue is highly concentrated in the Bikes category
+
+Bikes contribute approximately 95% of total revenue, making this category the primary revenue driver in the analyzed dataset.
+
+### 2. Revenue is concentrated among a smaller customer segment
+
+Approximately 29% of customers account for 80% of revenue, indicating that customer contribution is highly uneven.
+
+### 3. Revenue increased significantly between 2015 and 2016
+
+The analysis identified approximately 45.6% year-over-year revenue growth from 2015 to 2016.
+
+### 4. The United States and Australia are major markets
+
+These two countries generated the highest revenue among the analyzed territories.
+
+### 5. Customer revenue is relatively balanced by gender
+
+The analyzed revenue distribution between male and female customers is relatively similar.
+
+---
+
+# 🎯 Business Recommendations
+
+Based on the analytical findings, potential business actions include:
+
+* Focus retention strategies on high-value customers.
+* Monitor the performance and availability of the Bikes category because of its dominant revenue contribution.
+* Investigate the drivers behind the strong revenue growth observed between 2015 and 2016.
+* Analyze customer purchasing behavior across major geographic markets.
+* Explore opportunities to increase Accessories and Clothing revenue.
+* Use customer segmentation to support targeted marketing and retention strategies.
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Raw AdventureWorks Dataset
+          ↓
+Database & Schema Understanding
+          ↓
+Data Profiling & Documentation
+          ↓
+Data Preparation
+          ↓
+MySQL Analytical Queries
+          ↓
+Business KPI & Insight Generation
+          ↓
+Power BI Data Modeling
+          ↓
+DAX Measures & Calculations
+          ↓
+Interactive Dashboard
+          ↓
+Business Insights & Recommendations
+```
+
+---
+
+# 📌 Key Project Metrics
+
+| Metric                                |      Result |
+| ------------------------------------- | ----------: |
+| Total Revenue                         | **$24.91M** |
+| Sales Transactions                    |    **60K+** |
+| Bikes Revenue Contribution            |  **94.89%** |
+| Customers generating 80% revenue      |  **29.03%** |
+| Top 10% Customer Revenue Contribution |  **40.36%** |
+| 2016 YoY Revenue Growth               |   **45.6%** |
 
 ---
 
 # 🚧 Project Status
 
-| Phase | Status |
-|--------|--------|
+| Phase                     | Status      |
+| ------------------------- | ----------- |
 | 📖 Database Understanding | ✅ Completed |
-| 📝 Documentation | 🟡 In Progress |
-| 🐬 SQL Analytics | ⏳ Upcoming |
-| 📊 Power BI Dashboard | ⏳ Upcoming |
-| 💡 Business Insights | ⏳ Upcoming |
+| 📝 Data Documentation     | ✅ Completed |
+| 🔍 Data Profiling         | ✅ Completed |
+| 🐬 SQL Analytics          | ✅ Completed |
+| 🧩 Data Modeling          | ✅ Completed |
+| 📊 Power BI Dashboard     | ✅ Completed |
+| 💡 Business Insights      | ✅ Completed |
+| 📄 GitHub Documentation   | ✅ Completed |
 
 ---
 
 # 🌟 Project Highlights
 
-- Production-style retail database analysis
-- Professional project documentation
-- Advanced SQL for business problem solving
-- Business Intelligence dashboard development
-- End-to-end analytics workflow
+* End-to-end Business Intelligence workflow
+* 60K+ sales transactions analyzed
+* $24.91M revenue analyzed
+* Advanced SQL analytical techniques
+* CTEs and window functions
+* Customer contribution and Pareto analysis
+* Power BI semantic data modeling
+* Interactive KPI dashboard
+* Business-focused insights and recommendations
+* Professional project documentation
+
+---
+
+# 📁 Repository Contents
+
+The repository contains:
+
+* 📄 Data documentation
+* 🗂️ ER diagram
+* 🔍 Data profiling documentation
+* 🐬 SQL analytical queries
+* 📊 Power BI dashboard
+* 📸 Dashboard screenshots
+* 📚 Business analysis documentation
+
+---
+
+# 🚀 How to Explore the Project
+
+### 1. Explore the Documentation
+
+Start with the files inside the `Documentation` folder to understand the dataset and business context.
+
+### 2. Review the SQL Analysis
+
+Open the SQL scripts to understand how the business questions were translated into analytical queries.
+
+### 3. Open the Power BI Dashboard
+
+Open the `.pbix` file using Power BI Desktop to explore the interactive dashboard and underlying data model.
+
+### 4. Review the Findings
+
+Use the documented KPIs and insights to understand the business conclusions derived from the analysis.
+
+---
+
+# 🔮 Future Improvements
+
+Potential extensions to the project include:
+
+* Customer lifetime value analysis
+* Customer retention analysis
+* Demand forecasting
+* More detailed product-level profitability analysis
+* Automated data refresh
+* Additional executive-level dashboard pages
 
 ---
 
 <div align="center">
 
-### ⭐ If you found this project interesting, consider giving it a Star!
+### ⭐ AdventureWorks Business Intelligence Case Study
 
-**Built with ❤️ using MySQL, Power BI, and Business Intelligence concepts.**
+**Built using MySQL, Power BI, SQL Analytics & Business Intelligence Concepts**
 
 </div>
