@@ -87,7 +87,9 @@ AdventureWorks-Business-Analytics
 │
 ├── 📂 Dashboard
 │   ├── AdventureWorks Dashboard.pbix
-│   └── Dashboard Screenshots/
+│   ├── Sales-Overview.png
+│   ├── Business-Insights.png
+│   └── Product-Customer-Intelligence.png
 │
 ├── 📂 Dataset
 │
@@ -132,7 +134,7 @@ AdventureWorks-Business-Analytics
 
 * Relational database concepts
 * Primary and foreign keys
-* Fact and dimension relationships
+* Fact & dimension relationships
 * Power BI semantic modeling
 * Many-to-one relationships
 * Data model validation
@@ -200,7 +202,7 @@ The analysis used:
 * Views
 * Date-based analysis
 
-### Examples of analytical techniques
+### Examples of Analytical Techniques
 
 #### 📈 Year-over-Year Analysis
 
@@ -373,22 +375,21 @@ The dashboard includes metrics such as:
 
 # 🖼️ Dashboard Preview
 
+## 📈 Sales Overview
 
-```text
-Dashboard/
-│
-├── Dashboard Overview.png
-├── Customer Analysis.png
-└── Sales Performance.png
-```
+![AdventureWorks Sales Overview](Dashboard/Sales-Overview.png)
 
-Screenshots can be embedded in this README using:
+---
 
-```markdown
-## 💡 Business Insights Dashboard
+## 💡 Business Insights
 
-![Business Insights Dashboard](Dashboard/Business-Insights.png)
-```
+![AdventureWorks Business Insights](Dashboard/Business-Insights.png)
+
+---
+
+## 📊 Product & Customer Intelligence
+
+![AdventureWorks Product & Customer Intelligence](Dashboard/Product-Customer-Intelligence.png)
 
 ---
 
